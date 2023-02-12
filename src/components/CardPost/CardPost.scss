@@ -32,3 +32,9 @@
 .lin {
     text-decoration: none;
 }
+
+@media (max-width: 400px) {
+    .cardPost {
+       width: 170px;
+    }
+}

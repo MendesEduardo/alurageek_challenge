@@ -3,14 +3,14 @@
     margin: 0 auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .container {
         width: 768px;
     }
 }
 
-@media (max-width: 400) {
+@media (max-width: 400px) {
     .container {
-        width: 360px;
+        width: 95%;
     }
 }

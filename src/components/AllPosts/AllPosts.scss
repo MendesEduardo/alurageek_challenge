@@ -29,3 +29,13 @@
         }
     }
 }
+
+@media (max-width: 400px) {
+    .allPosts {
+        .postsTop {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1em;
+        }
+    }
+}

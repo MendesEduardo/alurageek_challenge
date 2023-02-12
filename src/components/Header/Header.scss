@@ -8,6 +8,7 @@
     .innerHeader {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         .leftHeader {
             display: flex;
@@ -37,9 +38,39 @@
                 }
             }
         }
+
+        .searchMobile {
+            display: none;
+        }
     }
 }
 
-.buttonLink.open{
+.buttonLink.open {
     display: none;
+}
+
+@media (max-width: 400px) {
+    .header {
+        height: 72px;
+        .innerHeader {
+            .leftHeader {
+                img{
+                    width: 150px;
+                }
+                .search {
+                    display: none;
+                }
+            }
+            .butonLogin{
+                button{
+                    width: 100px;
+                }
+            }
+
+            .searchMobile {
+                display: block;
+                padding: 1em;
+            }
+        }
+    }
 }

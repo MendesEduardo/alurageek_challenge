@@ -1,5 +1,5 @@
 .bannerImage {
-    background: url('/assets/banner.png');
+    background: url('/assets/banner.png') no-repeat center/cover;
     height: 352px;
 
     h1 {
@@ -20,6 +20,18 @@
         p {
             color: var(--neutral-white);
             font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .bannerImage {
+        height: 192px;
+        h1{
+            font-size: 22px;
+        }
+        p {
+            font-size: 14px;
         }
     }
 }

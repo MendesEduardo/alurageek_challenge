@@ -46,14 +46,20 @@ function Header() {
                             />
                         </div>
                     </div>
-                    <div>
+                    <div className='butonLogin'>
                         {login && <ButtonLink to="/Login">
                             {text}
                         </ButtonLink>}
                     </div>
+                    <div className='searchMobile'>
+                        <img
+                            src='/assets/Lupa.svg'
+                            alt="Buscar"
+                        />
+                    </div>
                 </div>
             </Container>
-        </header>
+        </header >
     )
 }
 

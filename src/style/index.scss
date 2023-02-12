@@ -32,21 +32,21 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: var(--cyan);
+    background-color: var(--blue);
 }
 
 body::-webkit-scrollbar-track {
-    background: linear-gradient(var(--cyan), var(--neutral-white));
+    background: linear-gradient(var(--blue), var(--cyan));
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     body {
-        width: 768px;
+        width: 800px;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
     body {
-        width: 360px;
+        width: 100%;
     }
 }

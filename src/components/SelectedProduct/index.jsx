@@ -1,6 +1,4 @@
 import Container from '../Container'
-import CardPost from '../CardPost'
-import datas from '../../json/data.json'
 import './SelectedProduct.scss'
 
 function SelectedProduct({ id, image, title, value, info }) {
@@ -16,9 +14,7 @@ function SelectedProduct({ id, image, title, value, info }) {
                             <p>{info}</p>
                         </div>
                     </div>
-                        <h2>Produtos similares</h2>
-                    <div className='produtosSimilares'>
-                    </div>
+                        <h3>Produtos similares</h3>
                 </article>
             </Container>
         </section>

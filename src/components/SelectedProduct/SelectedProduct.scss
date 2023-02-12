@@ -32,15 +32,30 @@
             }
         }
 
-        h2 {
+        h3 {
             color: var(--neutral-black);
-            padding:0 0 1em 0;
+            padding: 0 0 1em 0;
         }
+    }
+}
 
-        .produtosSimilares {
-            display: flex;
-            gap: 0.8em;
-            flex-wrap: wrap;
+@media (max-width: 400px) {
+    .selectedProduct {
+        .innerSelectedProduct {
+            .product {
+                flex-direction: column;
+
+                h2 {
+                    font-size: 22px;
+                }
+                h6 {
+                    font-size: 16px;
+                }
+            }
+            h3 {
+                margin-top: -1em;
+                font-size: 22px;
+            }
         }
     }
 }

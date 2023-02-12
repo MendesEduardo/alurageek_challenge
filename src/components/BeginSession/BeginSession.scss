@@ -32,3 +32,21 @@
         }
     }
 }
+
+@media (max-width: 400px) {
+    .login {
+        .innerLogin {
+
+            #email,
+            #password {
+                width: 275px;
+                height: 41px;
+            }
+
+            button {
+                width: 109px;
+                height: 40px;
+            }
+        }
+    }
+}

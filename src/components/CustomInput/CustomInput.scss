@@ -20,3 +20,11 @@
         color: var(--neutral-black);
     }
 }
+
+@media (max-width: 400px) {
+    .customInput {
+        input {
+            width: 328px;
+        }
+    }
+}

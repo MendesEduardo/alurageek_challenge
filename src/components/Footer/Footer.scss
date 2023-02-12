@@ -59,3 +59,22 @@
     padding: 2em;
     color: var(--neutral-black);
 }
+
+@media (max-width: 1200px) {
+    .footer{
+        height: auto;
+        padding: 1em;
+        .innerFooter{
+            flex-direction: column;
+            align-items: center;
+            ul {
+                list-style: none;
+                padding: 1em 0;
+    
+                li {
+                    padding: 0.5em;
+                }
+            }
+    } 
+    }
+}
