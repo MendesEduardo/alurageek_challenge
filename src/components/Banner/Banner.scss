@@ -1,0 +1,25 @@
+.bannerImage {
+    background: url('/assets/banner.png');
+    height: 352px;
+
+    h1 {
+        padding-top: 3em;
+        font-size: 52px;
+        font-weight: 700;
+        width: 751px;
+    }
+
+    p {
+        padding: 0.5em 0;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    button {
+        background-color: var(--blue);
+        p {
+            color: var(--neutral-white);
+            font-size: 16px;
+        }
+    }
+}

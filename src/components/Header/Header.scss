@@ -1,0 +1,45 @@
+.header {
+    height: 115px;
+    width: 100%;
+    background-color: var(--neutral-white);
+    display: flex;
+    align-items: center;
+
+    .innerHeader {
+        display: flex;
+        justify-content: space-between;
+
+        .leftHeader {
+            display: flex;
+            gap: 1em;
+
+            .search {
+                border-radius: 15px;
+                width: 393px;
+                background-color: var(--neutral-gray);
+                height: 55px;
+
+                input {
+                    float: left;
+                    margin: 1em;
+                    padding: 1em;
+                    background-color: transparent;
+                    font-size: 14px;
+                    border: none;
+                    height: 30px;
+                    width: 80%;
+                    color: var(--neutral-black);
+                }
+
+                img {
+                    float: right;
+                    padding: 1em;
+                }
+            }
+        }
+    }
+}
+
+.buttonLink.open{
+    display: none;
+}

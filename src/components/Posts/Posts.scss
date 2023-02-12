@@ -1,0 +1,30 @@
+.posts {
+    margin: 5em 0;
+
+    .postsTop {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em 0 1em 0;
+
+        h2 {
+            font-size: 32px;
+            color: var(--neutral-black);
+        }
+    }
+
+    .seeAll {
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(150%)
+        }
+    }
+
+    .postsCompra {
+        display: flex;
+        gap: 0.8em;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,37 @@
+.login {
+    background-color: var(--neutral-gray);
+
+    .innerLogin {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5em;
+        padding: 5em 0;
+
+        h2 {
+            color: var(--neutral-black);
+            padding: 1em 0;
+        }
+
+        input {
+            width: 423px;
+            height: 63px;
+            padding: 1em;
+            border: none;
+            border-bottom: 1px solid var(--neutral-black);
+            background-color: var(--neutral-white);
+            color: var(--neutral-black);
+        }
+
+        button {
+            background-color: var(--blue);
+            width: 423px;
+            height: 63px;
+
+            p {
+                color: var(--neutral-white);
+                font-size: 16px;
+            }
+        }
+    }
+}

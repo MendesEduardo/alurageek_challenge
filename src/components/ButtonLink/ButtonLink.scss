@@ -1,0 +1,15 @@
+.buttonLink {
+    width: 180px;
+    height: 50px;
+    border: 1px solid var(--blue);
+    background-color: transparent;
+    font-size: 16px;
+    .Lin{
+        text-decoration: none;
+        color: var(--blue);
+    }
+
+    &:hover {
+        filter: brightness(120%)
+    }
+}

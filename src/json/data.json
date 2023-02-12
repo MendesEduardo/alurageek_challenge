@@ -1,0 +1,116 @@
+{
+    "starWars": [
+        {
+            "id": 1,
+            "image": "./assets/starWars/starwars-1.svg",
+            "title": "Produto XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 2,
+            "image": "./assets/starWars/starwars-2.svg",
+            "title": "Produto XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 3,
+            "image": "./assets/starWars/starwars-3.svg",
+            "title": "Produto XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 4,
+            "image": "./assets/starWars/starwars-4.svg",
+            "title": "Produto XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 5,
+            "image": "./assets/starWars/starwars-5.svg",
+            "title": "Produto XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 6,
+            "image": "./assets/starWars/starwars-6.svg",
+            "title": "Produto XYZ",
+            "value": "R$ 60,00"
+        }
+    ],
+    "consoles": [
+        {
+            "id": 1,
+            "image": "./assets/consoles/consoles-1.svg",
+            "title": "Controle XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 2,
+            "image": "./assets/consoles/consoles-2.svg",
+            "title": "Controle e console XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 3,
+            "image": "./assets/consoles/consoles-3.svg",
+            "title": "Console XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 4,
+            "image": "./assets/consoles/consoles-4.svg",
+            "title": "Controle XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 5,
+            "image": "./assets/consoles/consoles-5.svg",
+            "title": "Console XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 6,
+            "image": "./assets/consoles/consoles-6.svg",
+            "title": "Game Boy Color",
+            "value": "R$ 60,00"
+        }
+    ],
+    "diversos": [
+        {
+            "id": 1,
+            "image": "./assets/diversos/diversos-1.svg",
+            "title": "Camisa Atari",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 2,
+            "image": "./assets/diversos/diversos-2.svg",
+            "title": "Camisa SNES",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 3,
+            "image": "./assets/diversos/diversos-3.svg",
+            "title": "Controle e console XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 4,
+            "image": "./assets/diversos/diversos-4.svg",
+            "title": "Controle e console XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 5,
+            "image": "./assets/diversos/diversos-5.svg",
+            "title": "Controle e console XYZ",
+            "value": "R$ 60,00"
+        },
+        {
+            "id": 6,
+            "image": "./assets/diversos/diversos-6.svg",
+            "title": "Controle e console XYZ",
+            "value": "R$ 60,00"
+        }
+    ]
+}

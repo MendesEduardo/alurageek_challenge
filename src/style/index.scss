@@ -1,0 +1,51 @@
+@import "./_reset";
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-Raleway);
+    font-size: 16px;
+    margin: 0 auto;
+    width: 1440px;
+    font-weight: 500;
+
+    color-scheme: light dark;
+    color: #ffffff;
+    background-color: var(--bg-main);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cyan);
+}
+
+body::-webkit-scrollbar-track {
+    background: linear-gradient(var(--cyan), var(--neutral-white));
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        width: 360px;
+    }
+}

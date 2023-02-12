@@ -1,0 +1,79 @@
+.footer {
+    background-color: var(--bg-footer);
+    height: 368px;
+    padding: 3em 0;
+
+    .innerFooter {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        ul {
+            list-style: none;
+
+            li {
+                padding: 1em;
+
+                a {
+                    text-decoration: none;
+                    color: var(--neutral-black);
+                }
+            }
+        }
+
+        .messageField {
+            display: flex;
+            flex-direction: column;
+
+            h3{
+                padding: 1em 0;
+                color: var(--black);
+            }
+
+            label {
+                margin-bottom: -1.5em;
+                padding-left: 1.3em;
+                font-size: 12px;
+                z-index: 10;
+                color: var(--neutral-black);
+            }
+
+            input {
+                margin: 0 0 1em 0;
+                padding: 1em;
+                background-color: var(--neutral-white);
+                font-size: 16px;
+                border: none;
+                width: 560px;
+                color: var(--neutral-black);
+            }
+
+            .inputName {
+                height: 56px;
+                padding-top: 2em;
+            }
+
+            .inputMensagem {
+                height: 82px;
+                padding-bottom: 4em;
+            }
+        }
+
+        button {
+            background-color: var(--blue);
+
+            p {
+                color: var(--neutral-white);
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.footerEnd {
+    height: 102px;
+    text-align: center;
+    font-size: 16px;
+    padding: 2em;
+    color: var(--neutral-black);
+}
