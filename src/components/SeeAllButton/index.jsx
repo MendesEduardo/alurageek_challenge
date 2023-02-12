@@ -1,9 +1,12 @@
+import { Link } from 'react-router-dom'
 import './SeeAllButton.scss'
 
 function SeeAllButton() {
   return (
     <button className='seeAllButton'>
-      Ver tudo
+      <Link to="/Produtos" className='lin'>
+        Ver tudo
+      </Link>
     </button>
   )
 }

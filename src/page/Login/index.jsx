@@ -3,9 +3,9 @@ import BeginSession from '../../components/BeginSession'
 
 function Login() {
   return (
-    <section>
+    <>
       <BeginSession />
-    </section>
+    </>
   )
 }
 

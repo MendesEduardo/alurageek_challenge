@@ -3,9 +3,9 @@ import AllPosts from '../../components/AllPosts'
 
 function Products() {
   return (
-    <section>
+    <>
     <AllPosts />
-    </section>
+    </>
   )
 }
 

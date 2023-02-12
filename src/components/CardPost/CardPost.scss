@@ -1,5 +1,17 @@
 .cardPost {
     padding: 0 0 3em 0;
+    position: relative;
+
+    .confing {
+        position: absolute;
+        right: 0;
+
+        img {
+            padding: 0.5em;
+            width: 35px;
+        }
+    }
+
     h4 {
         padding: 0.4em 0 0 0;
         font-weight: 500;
@@ -11,4 +23,12 @@
         font-weight: 700;
         color: var(--neutral-black);
     }
+
+    &:hover {
+        filter: brightness(80%)
+    }
+}
+
+.lin {
+    text-decoration: none;
 }

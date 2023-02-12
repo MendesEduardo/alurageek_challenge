@@ -1,6 +1,7 @@
 import Container from '../Container'
 import ButtonLink from '../ButtonLink'
 import './BeginSession.scss'
+import CustomInput from '../CustomInput'
 
 function BeginSession() {
     return (
@@ -10,19 +11,19 @@ function BeginSession() {
                     <h2>
                         Iniciar Sessão
                     </h2>
-                    <input
+                    <CustomInput
                         name="email"
                         id="email"
                         type="email"
                         placeholder="Escreva seu email"
                     />
-                    <input
+                    <CustomInput
                         name="password"
                         id="password"
                         type="password"
                         placeholder="Escreva sua senha"
                     />
-                    <ButtonLink to='/Products'>
+                    <ButtonLink to='/Produtos'>
                         <p>Entra</p>
                     </ButtonLink>
                 </article>

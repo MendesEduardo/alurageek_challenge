@@ -1,12 +1,17 @@
 .seeAllButton {
-    border: none;
     background-color: transparent;
-    padding: 0.5em 1em 0.5em 0;
-    font-size: 16px;
-    color: var(--blue);
+    border: none;
+    padding-top: 0.5em;
 
-    &:hover {
-        cursor: pointer;
-        filter: brightness(150%)
+    .lin {
+        padding: 0.5em 1em 0.5em 0;
+        font-size: 16px;
+        text-decoration: none;
+        color: var(--blue);
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(150%)
+        }
     }
 }

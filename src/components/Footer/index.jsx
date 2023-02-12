@@ -1,6 +1,7 @@
 import Container from '../Container'
 import ButtonLink from '../ButtonLink'
 import './Footer.scss'
+import CustomInput from '../CustomInput'
 
 function Footer() {
     return (
@@ -33,18 +34,15 @@ function Footer() {
                         </ul>
                         <form className='messageField'>
                             <h3>Fale Conosco</h3>
-                            <label htmlFor="name">Name</label>
-                            <input
-                                className='inputName'
+                            <CustomInput
+                                label="Nome"
                                 name="name"
                                 id="name"
                                 type="text"
-                                placeholder="André Lisboa"
                             />
-                            <input
-                                className='inputMensagem'
-                                name="name"
-                                id="name"
+                            <CustomInput
+                                name="mensagem"
+                                id="mensagem"
                                 type="text"
                                 placeholder="Escreva sua mensagem"
                             />

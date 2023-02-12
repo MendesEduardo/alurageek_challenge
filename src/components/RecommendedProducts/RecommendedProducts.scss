@@ -1,0 +1,9 @@
+.recommendedProducts {
+    background-color: var(--neutral-gray);
+
+    .innerRecommendedProducts {
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+}

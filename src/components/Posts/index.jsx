@@ -17,7 +17,7 @@ function Posts() {
                         <img src='/assets/arrow.svg' alt='seta ver tudo' />
                     </div>
                 </div>
-                <div className='postsCompra'>
+                <div className='postsCompra' id='starWars'>
                     {datas.starWars.map((data) =>
                         <CardPost
                             id={data.id}
@@ -36,7 +36,7 @@ function Posts() {
                         <img src='/assets/arrow.svg' alt='seta ver tudo' />
                     </div>
                 </div>
-                <div className='postsCompra'>
+                <div className='postsCompra' id='consoles'>
                     {datas.consoles.map((data) =>
                         <CardPost
                             id={data.id}
@@ -55,7 +55,7 @@ function Posts() {
                         <img src='/assets/arrow.svg' alt='seta ver tudo' />
                     </div>
                 </div>
-                <div className='postsCompra'>
+                <div className='postsCompra' id='diversos'>
                     {datas.diversos.map((data) =>
                         <CardPost
                             id={data.id}

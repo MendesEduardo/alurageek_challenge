@@ -12,7 +12,7 @@ function AllPosts() {
                     <h2>
                         Todos os produtos
                     </h2>
-                    <ButtonLink>
+                    <ButtonLink to='/AdicionarProduto'>
                         <p>Adicionar produto</p>
                     </ButtonLink>
                 </div>
